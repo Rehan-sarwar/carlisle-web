@@ -1,0 +1,110 @@
+*{
+    padding: 0px;
+    margin: 0px ;
+    box-sizing: border-box;
+}
+.bg{  
+ background-image: url("/images/homepage-hero.jpg");
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ min-height: 100vh;
+}
+.border{
+  border: 1px solid;
+  width: 0.96px;
+  height: 20px;
+  color:#A0A2A4;
+ 
+}
+
+.container { 
+    max-width:350px ;
+    width:280px;
+  }
+  .clip{
+    clip-path: polygon(0% 0%, 100% 0%, 99% 73%, 80% 73%, 63% 73%, 7% 74%, 0 100%);
+    background-color:var(--blue, #003591) ;
+    font-size: 25px;
+    height: 200px;
+    max-width: 100%;
+    padding: 0px 20px;
+    color: white;
+     
+  }
+  .digidal{
+    background-image: url("./images/bluebg.png");
+     
+  }
+  .bg1{
+    background-image: url("/images/wbd.png");
+    margin-top: 30px;
+    max-width: 1200px;
+    margin: auto; 
+  }
+  .bg2{
+    background-image: url("/images/studiebg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    margin-top: 30px;
+    
+  }
+  .img{
+    -webkit-clip-path: polygon(0 0, 100% 0%, 82% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0%, 82% 100%, 0% 100%);
+    max-width: 100%;
+   
+    
+    
+  }
+  .contain { 
+   width: 250px;
+   max-width: 100%;
+  }
+  .cli{
+    clip-path: polygon(0% 0%, 100% 0%, 100% 63%, 79% 63%, 54% 64%, 4% 65%, 0 100%);
+    background-color:var(--blue, #003591) ;
+    font-size: 20px;
+    color: white;
+    margin-top: 0px;
+    height: 50px; 
+    padding: 0px 20px;
+    max-width: 100%;
+  }
+
+
+
+  @media only screen and (max-width: 640px) {
+   body{
+    overflow-x: hidden;
+   }
+   .clip{
+    background-color:var(--white,white) ;
+    color: black; 
+   height: 170px; 
+    font-weight: 700;
+    font-size:24px;
+    padding: 0px 0px;  
+   }
+   
+    .bg1{
+      background-image: url("/images/wbd.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+       margin: 10px;
+    }
+    .cli{
+    margin-top: 30px;
+    }
+
+   }
+  
+  
+  
+  
+  
+
+
