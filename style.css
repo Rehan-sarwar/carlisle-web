@@ -20,8 +20,8 @@
 
 
 .container { 
-    max-width:350px ;
-    width:280px;
+   max-width: 100%;
+    width:300px;
   }
   .clip{
     clip-path: polygon(0% 0%, 100% 0%, 99% 73%, 80% 73%, 63% 73%, 7% 74%, 0 100%);
@@ -109,6 +109,11 @@
       max-height: 350px;
      }
 
+   }
+   @media only screen and (max-width: 640px) {
+    body{
+      overflow-x: hidden !important;
+    }
    }
   
   
